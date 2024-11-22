@@ -4,7 +4,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # Set up your environment variable for Google Gemini API
-os.environ['GEMINI_API_KEY'] = 'enter your api'
+os.environ['GEMINI_API_KEY'] = 'AIzaSyDzHnn9TcVoCXa5SNyz7NCroH4RAR5qV_0'
 
 # Configure the generative AI
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
@@ -23,7 +23,7 @@ def get_gemini_response(input_text, image):
 
 # Streamlit app settings
 st.set_page_config(page_title='IMAGE CREATION')
-st.header("GEMINI AI IMAGE APP ANALYSIS")
+st.header("IMAGE ANALYSIS AND CONTENT CREATION APP")
 
 st.markdown("<h3 style='font-size: 23px;'>Developed by : Mohd Sameer Hussain</h3>", unsafe_allow_html=True)
 
